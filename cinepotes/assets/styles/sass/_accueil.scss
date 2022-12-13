@@ -1,0 +1,95 @@
+#accueil{
+    > main{
+        > section:nth-of-type(1){
+            // height: 55vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            > section{
+                display: flex;
+                flex-direction: column;
+                justify-content: top;
+                align-items: flex-start;
+                margin: 10vw;
+                > h2{
+                    font-size: 4rem;
+                    color: $rouge;
+                    margin-bottom: 40px;
+                }
+                > p{
+                    font-size: 2.5rem;
+                    color: $gris;
+                    > span{
+                        color: $rouge;
+                    }
+                }
+            }
+            > figure{
+                background-color: $gris;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                > img{
+                    width: 50%;
+                }
+            }
+        }
+        > section:nth-of-type(2){
+            background-color: $rouge;
+            display: grid;
+            grid-template-rows: 0.1fr 1fr;
+            > h2{
+                color: white;
+                font-size: 2.5rem;
+                justify-self: center;
+                margin: 100px 0 60px 0;
+            }
+            > ul{
+                width: 80%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 1vw;
+                > li{
+                    article{
+                        background-color: white;
+                        border-radius: 10px;
+                        padding: 20px;
+                        margin-bottom: 200px;
+                        display: grid;
+                        grid-template-rows: 8fr 4fr 1fr;
+                        > header{
+                            > figure{
+                                > img{
+                                    width: 100%;
+                                }
+                            }
+                            > h3{
+                                font-size: 1.6rem;
+                                margin: 20px 0 40px 0;
+                            }
+                        }
+                        > section{
+                            > h4{
+                                font-size: 1.2rem;
+                                margin: 20px 0;
+                            }
+                            > p{
+                                font-size: 1.1rem;
+                                margin: 10px 0;
+                            }
+                        }
+                        > footer{
+                            > a{
+                                color: $rouge;
+                                font-weight: bold;
+                                text-decoration: none;
+                                padding-bottom: 5px;
+                                border-bottom: 3px solid $rouge;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

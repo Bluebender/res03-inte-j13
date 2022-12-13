@@ -1,0 +1,27 @@
+body > footer{
+    background-color: $bleu;
+    // width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    > p{
+        color: white;
+        margin: 10px;
+        &:last-of-type{
+            margin-bottom: 40px;
+        }
+        > a{
+            color: white;
+        }
+    }
+    > figure{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > img{
+            width: 20%;
+        }
+    }
+}
