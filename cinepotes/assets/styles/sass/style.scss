@@ -3,7 +3,12 @@
 @import "header.scss";
 @import "footer.scss";
 @import "accueil.scss";
+@import "critiques.scss";
+@import "equipe.scss";
 
 body{
     font-family: 'Montserrat', sans-serif;
+}
+.hidden{
+    display: none;
 }

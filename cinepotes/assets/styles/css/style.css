@@ -122,7 +122,7 @@ body > footer > figure > img {
   align-items: flex-start;
   margin: 10vw;
 }
-#accueil > main > section:nth-of-type(1) > section > h2 {
+#accueil > main > section:nth-of-type(1) > section > h3 {
   font-size: 4rem;
   color: #bb232e;
   margin-bottom: 40px;
@@ -192,8 +192,124 @@ body > footer > figure > img {
   border-bottom: 3px solid #bb232e;
 }
 
+#critiques > main > section {
+  display: flex;
+  flex-direction: column;
+}
+#critiques > main > section > h2 {
+  background-color: #bb232e;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 30px 0;
+  padding: 30px 0;
+}
+#critiques > main > section > ul {
+  width: 70vw;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+#critiques > main > section > ul > li {
+  display: inline;
+}
+#critiques > main > section > ul > li > article {
+  margin: 10px 0;
+}
+#critiques > main > section > ul > li > article > header > figure {
+  width: 100%;
+}
+#critiques > main > section > ul > li > article > header > figure > img {
+  width: 100%;
+}
+#critiques > main > section > ul > li > article > section > h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#critiques > main > section > ul > li > article > section > p {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+#critiques > main > section > ul > li > article > footer > a {
+  color: #bb232e;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #bb232e;
+}
+
+#equipe > main > section {
+  background-image: url("	https://res03.sites.3wa.io/assets/files/inte/j13/cinepotes/assets/img/friends.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#equipe > main > section > h2 {
+  background-color: #bb232e;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 80px 0;
+  padding: 20px 0;
+}
+#equipe > main > section > ul {
+  width: 75vw;
+  margin: 0 auto 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4vw;
+}
+#equipe > main > section > ul > li {
+  display: inline;
+}
+#equipe > main > section > ul > li:nth-of-type(1) {
+  color: #004D00;
+}
+#equipe > main > section > ul > li:nth-of-type(2) {
+  color: #7A007A;
+}
+#equipe > main > section > ul > li:nth-of-type(3) {
+  color: #3D3D3D;
+}
+#equipe > main > section > ul > li > article {
+  background-color: gainsboro;
+  border-radius: 0 0 5px 5px;
+}
+#equipe > main > section > ul > li > article > header > figure {
+  width: 100%;
+}
+#equipe > main > section > ul > li > article > header > figure > img {
+  width: 100%;
+}
+#equipe > main > section > ul > li > article > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#equipe > main > section > ul > li > article > section > h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+#equipe > main > section > ul > li > article > section > p:first-of-type {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+#equipe > main > section > ul > li > article > section > p:last-of-type {
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
